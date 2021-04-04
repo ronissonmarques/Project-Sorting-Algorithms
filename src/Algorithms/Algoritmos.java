@@ -28,12 +28,23 @@ public class Algoritmos {
             vetor[j + 1] = atual;  //Atualiza o número atual  
         }
         return vetor;
-    }
-    
-    
+    }        
     public static int selectionSort(int[] vetor){
-        return 0;
+			for (int i = 0; i < vetor.length; i++) {
+				int indexDoValorMenor = i;
+				for (int j = i+1; j < vetor.length; j ++){
+					if (array [indexDoValorMenor] > vetor [j]) [
+						indexDoValorMenor = j;
+				}
+			}
+				int valorMenor = vetor[indexDoValorMenor];
+				vetor[indexDoValorMenor] = vetor[i];
+				vetor[i] = valorMenor
+		}	
+					
+        return vetor;
     }
+
     public static int countingSort(int[] vetor){
         return 0;
     }
