@@ -30,16 +30,16 @@ public class Algoritmos {
         return vetor;
     }        
     public static int selectionSort(int[] vetor){
-			for (int i = 0; i < vetor.length; i++) {
-				int indexDoValorMenor = i;
-				for (int j = i+1; j < vetor.length; j ++){
-					if (array [indexDoValorMenor] > vetor [j]) [
-						indexDoValorMenor = j;
-				}
-			}
-				int valorMenor = vetor[indexDoValorMenor];
-				vetor[indexDoValorMenor] = vetor[i];
-				vetor[i] = valorMenor
+    	for (int i = 0; i < vetor.length; i++) {
+		int indexDoValorMenor = i;
+		for (int j = i+1; j < vetor.length; j ++){
+			if (array [indexDoValorMenor] > vetor [j]) [
+			indexDoValorMenor = j;
+	}
+	}
+		int valorMenor = vetor[indexDoValorMenor];
+		vetor[indexDoValorMenor] = vetor[i];
+		vetor[i] = valorMenor
 		}	
 					
         return vetor;
